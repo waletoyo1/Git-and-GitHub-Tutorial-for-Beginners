@@ -82,6 +82,14 @@ Git is a software for tracking versions of your codes during software developmen
   
   <p> NB: You must be in the master branch to merge any branch with it </p>
   
+# 7. Introduction to GitHub
+  GitHub is the remote or online version of Git. It also allows collaborating and sharing repositories with other developers.
+  
+  
+# 8. Pushing (local to remote)
+    Pushing involves transferring your Git repository to the GitHub repository.
+
+  
   
 
 
