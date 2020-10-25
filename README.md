@@ -27,26 +27,26 @@ Git is a software for tracking versions of your codes during software developmen
   - Follow the instructions and install.
   - After the installation is completed, go to your project directory and open your command line terminal using that path.
   - Configure your using the following commands:
-    a. <b>git init</b> the press enter
-    b. <b>git config user.name yourName</b> then press enter
-    c. <b>git config user.email yourEmail</b> then press enter. NB: If you have a GitHub account, make sure your git email corresponds to your GitHub email as this helps your contributions to reflect on your profile.
+  <p>  a. <b>git init</b> the press enter</p>
+  <p>  b. <b>git config user.name yourName</b> then press enter</p>
+   <p> c. <b>git config user.email yourEmail</b> then press enter.</p> NB: If you have a GitHub account, make sure your git email corresponds to your GitHub email as this helps your contributions to reflect on your profile.
     
 
 
 
 # 3. Stages in Vesion controlling using Git (Modify, Stage, & Commit)
-a. Modify - This involve changing and saving your codes.
-b. Stage - Before a modified code can be tracked or commited, it has to be stagged. Use the following commands to stage your codes:
-  <b>git add fileNmae</b>  or <b>git add . </b>  (to stage more than one file).
-  <b>git status</b>  (to check if your files has been staged).
-c. Commit - This is done after stagging your codes. At this point seem satisfied with what you have written and want it to be trackable. Use the following commands for commiting your codes: 
+<p>a. Modify - This involve changing and saving your codes.</P>
+<p>b. Stage - Before a modified code can be tracked or commited, it has to be stagged. Use the following commands to stage your codes:</P>
+  <p><b>git add fileNmae</b>  or <b>git add . </b>  (to stage more than one file).</P>
+ <p> <b>git status</b>  (to check if your files has been staged).</p>
+<p>c. Commit - This is done after stagging your codes. At this point seem satisfied with what you have written and want it to be trackable. Use the following commands for commiting your codes: 
   <b>git commit -m "commit name" </b> then press enter. NB: Commit name helps you to remember what that code is all about. E.g "added index.html"
   <b>git log</b> (to view your commit history)
-  <b>git log --oneline</b> (to view your commit history in one line).
+  <b>git log --oneline</b> (to view your commit history in one line).</P>
   
   
   
-# 3.  Git Undoings (Checkout, Revert & Reset)
+# 4.  Git Undoings (Checkout, Revert & Reset)
   Checkout - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
     <b>git checkout commitID</b>  (NB: commitID can be obtained when you check your commit history)
     <b>git checkout master</b> (to navigate to the master branch)
