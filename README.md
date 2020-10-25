@@ -90,6 +90,7 @@ Git is a software for tracking versions of your codes during software developmen
     Pushing involves transferring your Git repository to the GitHub repository. This is useful when you already have a local Git repository and you want to sync it with your online GitHub account. Follow the steps below to push to your remote repository.
     
     *  Create a new repositroy
+    *  Create a new repositroy
     
     
 
