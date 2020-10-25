@@ -101,6 +101,9 @@ Git is a software for tracking versions of your codes during software developmen
 
 # 9. GitHub Alias
   * Alias are used for naming or tagging your remote repository url. Instead of copying and pasting a long url, the alias shortens it.
+  * Enter <b> git remote add origin url</b>
+  * NB: the origin above is the alias name and can be named differently.
+  * When pushing with alias, use <b> git push origin master </b>
   
     
     
