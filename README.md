@@ -34,7 +34,7 @@ Git is a software for tracking versions of your codes during software developmen
 
 
 
-# 3. Stages in Version controlling using Git (Modify, Stage, & Commit)
+# 3. Stages in Version Controlling Using Git (Modify, Stage, & Commit)
 <p>a. Modify - This involve changing and saving your codes.</P>
 <p>b. Stage - Before a modified code can be tracked or commited, it has to be stagged. Use the following commands to stage your codes:</P>
   <p><b>git add fileNmae</b>  or <b>git add . </b>  (to stage more than one file).</P>
