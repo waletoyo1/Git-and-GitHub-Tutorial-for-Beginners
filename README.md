@@ -53,7 +53,7 @@ Git is a software for tracking versions of your codes during software developmen
    <P> <b>git checkout master</b> (to navigate to the master branch).</P>
   <p> <b> git checkout branchName</b> (to naviage to another branch other than the master branch).</p>
     
-<p> <b>  REVERT</b> - helps to create another commit after modifying a particular commit of a particular branch. For example, you have a commit called "hello world" containing "<p>Hello world</p>" as the content. If want to change the content to <p> Hello Nigeria </p>, you need to make another commit by reverting the "hello world" commit. This preserves the "hello world" commit and also produce a new commit e.g "Hello Nigeria".  Use the steps below for reverting your commit:</p>
+<p> <b>  REVERT</b> - helps to create another commit after modifying a particular commit of a particular branch. For example, you have a commit called "hello world", containing "Hello world" as the content. If you want to change the content to "Hello Nigeria", you need to make another commit by reverting the "hello world" commit. This preserves the "hello world" commit and also produce a new commit e.g "Hello Nigeria".  Use the steps below for reverting your commit:</p>
     <p>1. Stage your code by entering <b>git add .</b> </P>
   <p>  2. Revert your commit by entering <b>git revert newCommitName</b> then press enter</P>
  
