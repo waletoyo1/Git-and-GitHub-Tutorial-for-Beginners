@@ -71,6 +71,10 @@ Git is a software for tracking versions of your codes during software developmen
    NB: You have to checkout your new branch before you can stage or make commits in it. Use the following commands to checkout or navigate to a branch: 
   <p><b>git checkout branchName</b></p>
    <b>git checkout -b branchName</b> (to create and checkout a new branch simultaneously).</p>
+   <p> You can delete a branch by using <b> git branch -D branchName </b>.</p>
+  <p> NB: You must be in the master branch to delete any branch </p>
+   
+  
   
 
 
