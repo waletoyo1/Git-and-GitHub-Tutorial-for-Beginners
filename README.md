@@ -49,7 +49,7 @@ Git is a software for tracking versions of your codes during software developmen
 # 4.  Git Undoings (Checkout, Revert & Reset)
   Checkout - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
  
-    <p> <b>git checkout commitID</b>  (NB: commitID can be obtained when you check your commit history). </p>
+    git checkout commitID (NB: commitID can be obtained when you check your commit history)
    <P> <b>git checkout master</b> (to navigate to the master branch).</P>
   <p> <b> git checkout branchName</b> (to naviage to another branch other than the master branch).</p>
     
