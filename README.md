@@ -35,11 +35,11 @@ Git is a software for tracking versions of your codes during software developmen
 
 
 # 3. Stages in Version Controlling Using Git (Modify, Stage, & Commit)
-<p>a. Modify - This involve changing and saving your codes.</P>
-<p>b. Stage - Before a modified code can be tracked or commited, it has to be stagged. Use the following commands to stage your codes:</P>
+<p>a. MODIFY - This involve changing and saving your codes.</P>
+<p>b. STAGE - Before a modified code can be tracked or commited, it has to be stagged. Use the following commands to stage your codes:</P>
   <p><b>git add fileNmae</b>  or <b>git add . </b>  (to stage more than one file).</P>
  <p> <b>git status</b>  (to check if your files has been staged).</p>
-<p>c. Commit - This is done after stagging your codes. At this point, you seem satisfied with what you have written and you want it to be trackable. Use the following commands for commiting your codes: 
+<p>c. COMMIT - This is done after stagging your codes. At this point, you seem satisfied with what you have written and you want it to be trackable. Use the following commands for commiting your codes: 
   <p><b>git commit -m "commit name" </b> then press enter. </p>NB: Commit name helps you to remember what that code is all about. E.g "added index.html"
 <p>  <b>git log</b> (to view your commit history)</p>
  <p> <b>git log --oneline</b> (to view your commit history in one line).</P>
@@ -47,17 +47,17 @@ Git is a software for tracking versions of your codes during software developmen
   
   
 # 4.  Git Undoings (Checkout, Revert & Reset)
-  Checkout - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
+  CHECKOUT - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
  
     git checkout commitID (NB: commitID can be obtained when you check your commit history)
    <P> <b>git checkout master</b> (to navigate to the master branch).</P>
   <p> <b> git checkout branchName</b> (to naviage to another branch other than the master branch).</p>
     
-<p> <b>  Revert</b> - helps to create another commit after modifying a particular commit of a particular branch. For example, you have a commit called "hello world" containing "<p>Hello world</p>" as the content. If want to change the content to <p> Hello Nigeria </p>, you need to make another commit by reverting the "hello world" commit. This preserves the "hello world" commit and also produce a new commit e.g "Hello Nigeria".  Use the steps below for reverting your commit:</p>
+<p> <b>  REVERT</b> - helps to create another commit after modifying a particular commit of a particular branch. For example, you have a commit called "hello world" containing "<p>Hello world</p>" as the content. If want to change the content to <p> Hello Nigeria </p>, you need to make another commit by reverting the "hello world" commit. This preserves the "hello world" commit and also produce a new commit e.g "Hello Nigeria".  Use the steps below for reverting your commit:</p>
     <p>1. Stage your code by entering <b>git add .</b> </P>
   <p>  2. Revert your commit by entering <b>git revert newCommitName</b> then press enter</P>
  
-<p> <b> Reset</b> - When you reset a commit, all the commit history before it will be deleted. Lets assume we have the following commits a->b->c->d->e->f. When we reset our commit history to e, commits a,b,c and d will be deleted. Use the command below to reset to a commit:
+<p> <b> RESET</b> - When you reset a commit, all the commit history before it will be deleted. Lets assume we have the following commits a->b->c->d->e->f. When we reset our commit history to e, commits a,b,c and d will be deleted. Use the command below to reset to a commit:
    <b> git reset desiredCommitID --hard</b></p>
     
  
