@@ -47,7 +47,7 @@ Git is a software for tracking versions of your codes during software developmen
   
   
 # 4.  Git Undoings (Checkout, Revert & Reset)
- <b>Checkout</b> - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
+ Checkout - helps to navigate from one commit to another in a particular code branch. Use the following commands to checkout or navigate your commits or branch
  
     <p> <b>git checkout commitID</b>  (NB: commitID can be obtained when you check your commit history)</P>
    <P> <b>git checkout master</b> (to navigate to the master branch)</P>
@@ -64,7 +64,7 @@ Git is a software for tracking versions of your codes during software developmen
  
 
   
- # 4.  Branching
+ # 5.  Branching
   Branching helps to introduce new fetures to your app without affecting the master branch. NB: The master branch is the stable version of your app and its the repository or folder that was created when git is initiated.
   To create a new barnch, use the following commands:
    <b>git branch branchName</b>
