@@ -76,8 +76,8 @@ Git is a software for tracking versions of your codes during software developmen
    
    
    
-# 6. Mergin Branches
-  Branches are usually merged when the developers are satisfied with the commits of the new branche and no conflicts exist.
+# 6. Merging Branches
+  Branches are usually merged when the developers are satisfied with the commits of the new branch and no conflicts exist.
   <p> Use <b> git merge branchToBeMerged </b> </p>
   
   <p> NB: You must be in the master branch to merge any branch with it </p>
