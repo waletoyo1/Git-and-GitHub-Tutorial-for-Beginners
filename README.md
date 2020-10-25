@@ -94,8 +94,8 @@ Git is a software for tracking versions of your codes during software developmen
 *  Create a new repositroy on GitHub and give it same name as your local repository.
 *  Decide whether its public or private.
 *  Copy the url of the new remote repository.
-*  Go to the command line on your local repository and enter: <b>git push url master<b>
-  *NB: Always specify the branch you are pushing to.
+*  Go to the command line on your local repository and enter: <b>git push url master</b>
+*  NB: Always specify the branch you are pushing to.
   
     
     
