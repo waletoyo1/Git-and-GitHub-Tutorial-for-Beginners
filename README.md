@@ -25,8 +25,8 @@ Git is a software for tracking versions of your codes during software developmen
 # 2. Installing Git
   - Vist https://git-scm.com/download/win for Windows PC and https://git-scm.com/download/mac for Mac PC.
   - Follow the instructions and install.
-  - After the installation is completed, go to your project directory and open your command line terminal using that path.
-  - Configure your using the following commands:
+  - After the installation is completed, go to your project directory(repository) and open your command line terminal using that path.
+  - Configure your  repository for Git using the following commands:
           <p>  a. <b>git init</b> then press enter</p>
           <p>  b. <b>git config user.name yourName</b> then press enter</p>
            <p> c. <b>git config user.email yourEmail</b> then press enter.</p> NB: If you have a GitHub account, make sure your git email corresponds to your GitHub email as this helps your contributions to reflect on your profile.
