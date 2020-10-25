@@ -57,7 +57,7 @@ Git is a software for tracking versions of your codes during software developmen
     <p>1. Stage your code by entering <b>git add .</b> </P>
   <p>  2. Revert your commit by entering <b>git revert newCommitName</b> then press enter</P>
  
-<p> <b> RESET</b> - When you reset a commit, all the commit history before it will be deleted. Lets assume we have the following commits a->b->c->d->e->f. When we reset our commit history to e, commits a,b,c and d will be deleted. Use the command below to reset to a commit:
+<p> <b> RESET</b> - When you reset a commit, all the commit history before it will be deleted. Lets assume we have the following commits: <p> a->b->c->d->e->f</p>. When we reset our commit history to e, commits a,b,c and d will be deleted. Use the command below to reset to a commit:
    <b> git reset desiredCommitID --hard</b></p>
     
  
