@@ -41,8 +41,8 @@ Git is a software for tracking versions of your codes during software developmen
  <p> <b>git status</b>  (to check if your files has been staged).</p>
 <p>c. Commit - This is done after stagging your codes. At this point, you seem satisfied with what you have written and you want it to be trackable. Use the following commands for commiting your codes: 
   <p><b>git commit -m "commit name" </b> then press enter. </p>NB: Commit name helps you to remember what that code is all about. E.g "added index.html"
-  <b>git log</b> (to view your commit history)
-  <b>git log --oneline</b> (to view your commit history in one line).</P>
+<p>  <b>git log</b> (to view your commit history)</p>
+ <p> <b>git log --oneline</b> (to view your commit history in one line).</P>
   
   
   
