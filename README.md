@@ -96,6 +96,11 @@ Git is a software for tracking versions of your codes during software developmen
 *  Copy the url of the new remote repository.
 *  Go to the command line on your local repository and enter: <b>git push url master</b>
 *  NB: Always specify the branch you are pushing to.
+
+
+
+# 9. GitHub Alias
+  * Alias are used for naming or tagging your remote repository url. Instead of copying and pasting a long url, the alias shortens it.
   
     
     
