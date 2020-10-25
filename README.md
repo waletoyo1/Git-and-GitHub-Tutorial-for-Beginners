@@ -91,8 +91,12 @@ Git is a software for tracking versions of your codes during software developmen
     This is useful when you already have a local Git repository and you want to sync it with your online GitHub account.
     Follow the steps below to push to your remote repository.
     
-*  Create a new repositroy
-*  Create a new repositroy
+*  Create a new repositroy on GitHub and give it same name as your local repository.
+*  Decide whether its public or private.
+*  Copy the url of the new remote repository.
+*  Go to the command line on your local repository and enter: <b>git push url master<b>
+  *NB: Always specify the branch you are pushing to.
+  
     
     
 
