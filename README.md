@@ -66,10 +66,11 @@ Git is a software for tracking versions of your codes during software developmen
   
  # 5.  Branching
   Branching helps to introduce new fetures to your app without affecting the master branch. NB: The master branch is the stable version of your app and its the repository or folder that was created when git is initiated.
-  <P>To create a new barnch, use the following commands:
+  <P>To create a new branch, use the following commands:
       <P> <b>git branch branchName</b></p>
-   NB: You have to checkout your new branch before you can stage or make commits in it. Use git checkout branchName
-   Use <b>git checkout -b branchName</b> to create and checkout a new branch simultaneously.</p>
+   NB: You have to checkout your new branch before you can stage or make commits in it. Use the following commands to checkout or navigate to a branch: 
+  <p><b>git checkout branchName</b></p>
+   <b>git checkout -b branchName</b> (to create and checkout a new branch simultaneously).</p>
   
 
 
