@@ -107,7 +107,10 @@ Git is a software for tracking versions of your codes during software developmen
   
   
   # 10. Pulling or Cloning ( remote to local)
-    Pulling/cloning is used when you want to modify your GitHub repository using Git. It ensures that your local and remote codes are synced.
+  *  Pulling/cloning is used when you want to download a repository that does not exist on your local machine. 
+  * On the right-hand side of your remote repository, click code button and copy the url under https.
+  * Go to your local terminal and set the path to the directory you want your repository to be.
+  * Click <b> git clone url </b>
   
     
     
