@@ -113,6 +113,31 @@ Git is a software for tracking versions of your codes during software developmen
   * Enter <b> git clone url </b>
   * NB: When pushing codes back to your remote repository, you do not need to create another alias. Github cloning automatically gives your repository an alias called "origin".
   
+  
+  # 11. Collaborating on GitHub (privately and publicly)
+  * When working privately with your team, follow these steps to make your contributions:
+    * For already cloned repository, enter <b> git pull origin master</b> in the local terminal to sync your local repository with your remote repository.
+    * Create a new branch(to avoid messing up the master branch in case of errors).
+    * Add your contributions in the new branch
+    * Stage the new changes
+    * Commit the changes
+    * Push the branch to the remote.
+    * Use <b> git push origin branchName"</b> to push the branch.
+    * Go to GitHub and make pull request for others to approve your contributions.
+    * Once approved, your project manager will merge this branch with the master branch.
+    
+  * When working on public projects, forking is used to collaborate.
+  * Use the steps below to to contribute to an open source project:
+    * Fork your desired open project
+    * Clone the repository on your local machine
+    * Make a new branch and make your contributions.
+    * Stage and commit your contributions.
+    * Push your contributions to the remote repository
+    * Click pull request for approval
+    * Once the project manager is satisfied with your contribution, it is merged with the master branch.
+    
+
+  
     
     
 
