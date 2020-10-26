@@ -105,6 +105,10 @@ Git is a software for tracking versions of your codes during software developmen
   * NB: the origin above is the alias name and can be named differently.
   * When pushing with alias, use <b> git push origin master </b>
   
+  
+  # 10. Pulling or Cloning ( remote to local)
+    Pulling/cloning is used when you want to modify your GitHub repository using Git. It ensures that your local and remote codes are synced.
+  
     
     
 
