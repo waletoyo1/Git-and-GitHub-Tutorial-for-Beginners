@@ -110,7 +110,8 @@ Git is a software for tracking versions of your codes during software developmen
   *  Pulling/cloning is used when you want to download a repository that does not exist on your local machine. 
   * On the right-hand side of your remote repository, click code button and copy the url under https.
   * Go to your local terminal and set the path to the directory you want your repository to be.
-  * Click <b> git clone url </b>
+  * Enter <b> git clone url </b>
+  * NB: When pushing codes back to your remote repository, you do not need to create another alias. Github cloning automatically gives your repository an alias called "origin".
   
     
     
