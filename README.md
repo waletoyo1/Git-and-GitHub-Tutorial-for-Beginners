@@ -135,6 +135,11 @@ Git is a software for tracking versions of your codes during software developmen
     * Push your contributions to the remote repository
     * Click pull request for approval
     * Once the project manager is satisfied with your contribution, it is merged with the master branch.
+
+
+NB: when you lost your local repo and your pushing the new changes to the remote repo, use these commands:
+git push -f <repo name> master  (for first push)
+  or git push <repo name> master (if you have pushed before)
     
 
   
